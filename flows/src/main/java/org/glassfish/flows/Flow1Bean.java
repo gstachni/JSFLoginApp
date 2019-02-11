@@ -51,10 +51,10 @@ import javax.inject.Named;
 public class Flow1Bean implements Serializable {
 
     public String getName() {
-        return this.getClass().getSimpleName();
+        return this.getClass().getSimpleName(); 
     }
 
     public String getReturnValue() {
-        return "/return1";
+        return "/return12";
     }
 }
